@@ -54,10 +54,16 @@ section, summary, time, mark, audio, video {
 	width: 50%;
   }
 
-  .wrap {
+.about_me_wrap {
+	border-radius: 50px;
     width: 550px;
-    height: 350px;
-    overflow: hidden;
+    height: 450px;
+}
+
+.video_wrap {
+	border-radius: 50px;
+    width: 550px;
+    height: 250px;
 }
 
 .wrapImage {
@@ -67,11 +73,12 @@ section, summary, time, mark, audio, video {
 	-webkit-transform: scale(1.3);
     transform: scale(1.3);
     -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
+	transform-origin: 0 0;
 }
 
 iframe {
-    width: 76.92% !important;
+	border-radius: 50px;
+	width: 76.92% !important;
     height: 76.92% !important;
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
@@ -79,10 +86,7 @@ iframe {
     transform-origin: 0 0;
 }
 
-.yt-pause-overlay
- {
-    bottom:-200px; 
- }
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
